@@ -1,5 +1,5 @@
 #LEARN DATA ANALYSIS WITH PANDAS
-#A/B Testing for ShoeFly.com
+#A/B Testing for ShoeFly Website
 
 import codecademylib3
 import pandas as pd
