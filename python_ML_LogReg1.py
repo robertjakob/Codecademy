@@ -33,3 +33,20 @@ print(cc_lr.predict_proba(X_test)[:,1])
 
 # Print out the true outcomes for the test data
 print(y_test)
+# Print out the confusion matrix
+
+from sklearn.metrics import confusion_matrix
+print('confusion matrix: ')
+print(confusion_matrix(y_test, y_pred))
+
+# Print accuracy here:
+from sklearn.metrics import accuracy_score
+print(accuracy_score(y_test, y_pred))
+
+# Print F1 score here:
+from sklearn.metrics import f1_score
+print(f1_score(y_test, y_pred))
+
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+
